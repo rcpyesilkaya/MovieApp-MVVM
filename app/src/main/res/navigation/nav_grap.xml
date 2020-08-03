@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_grap"
+    app:startDestination="@id/mainActivity">
+
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.recepyesilkaya.moviemvvm.ui.popular_movie.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main"/>
+    <activity
+        android:id="@+id/singleActivity"
+        android:name="com.recepyesilkaya.moviemvvm.ui.single_movie_details.SingleActivity"
+        android:label="activity_single"
+        tools:layout="@layout/activity_single" />
+</navigation>

@@ -1,10 +1,10 @@
-package com.recepyesilkaya.moviemvvm.data.vo
+package com.recepyesilkaya.moviemvvm.ui.single_movie_details
 
-import android.app.Service
 import androidx.lifecycle.LiveData
 import com.recepyesilkaya.moviemvvm.data.api.TheMovieDBInterface
 import com.recepyesilkaya.moviemvvm.data.repository.MovieDetailsNetworkDataSource
 import com.recepyesilkaya.moviemvvm.data.repository.NetworkState
+import com.recepyesilkaya.moviemvvm.data.vo.MovieDetails
 import io.reactivex.disposables.CompositeDisposable
 
 class MovieDetailsRepository(private val apiService: TheMovieDBInterface) {

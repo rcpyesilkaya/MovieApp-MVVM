@@ -1,6 +1,5 @@
 package com.recepyesilkaya.moviemvvm.data.repository
 
-import android.app.Service
 import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
@@ -22,7 +21,7 @@ class MovieDetailsNetworkDataSource(private val apiService: TheMovieDBInterface,
 
     fun fetchMovieDetails(movieId:Int){
 
-        _networkState.postValue(NetworkState.LOADED)
+        _networkState.postValue(NetworkState.LOADING)
 
         try {
             compositeDisposable.add(

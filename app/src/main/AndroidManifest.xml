@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.recepyesilkaya.moviemvvm">
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:allowBackup="true"
@@ -8,9 +10,9 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".single_movie_details.SingleActivity"></activity>
-        <activity android:name=".MainActivity">
+        android:theme="@style/AppTheme" tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name="com.recepyesilkaya.moviemvvm.ui.single_movie_details.SingleActivity"></activity>
+        <activity android:name=".ui.popular_movie.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
