@@ -21,11 +21,13 @@ A simple project using The Movie DB based on Kotlin MVVM architecture.
 * [RecyclerView](https://developer.android.com/guide/topics/ui/layout/recyclerview) - implementing adapters and viewHolders
 * [RxJava2](https://developer.android.com/reference/kotlin/androidx/ui/rxjava2/package-summary) - For a seamless user experience
 * [Glide](https://github.com/bumptech/glide) - loading images
+* [DataBinding](https://developer.android.com/topic/libraries/data-binding)
+
 
 
 # Architecture
 
-* [MVVM Architecture](https://developer.android.com/jetpack/guide) (Model -View - ViewModel - DataBinding )
+* [MVVM Architecture](https://developer.android.com/jetpack/guide) (Model -View - ViewModel)
 
 
 
